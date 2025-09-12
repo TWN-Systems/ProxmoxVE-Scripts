@@ -1,14 +1,6 @@
-<div align="center">
-  <p align="center">
-    <a href="#">
-      <img src="https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/images/logo-81x112.png" height="100px" />
-    </a>
-  </p>
-</div>
 
 <div style="border: 2px solid #d1d5db; padding: 20px; border-radius: 8px; background-color: #f9fafb;">
-  <h2 align="center">Proxmox VE Helper-Scripts</h2>
-  <p align="center">A Community Legacy in Memory of @tteck</p>
+  <h2 align="center">A fork roxmox VE Helper-Scripts</h2>
   <p align="center">
     <a href="https://helper-scripts.com">
       <img src="https://img.shields.io/badge/Website-4c9b3f?style=for-the-badge&logo=github&logoColor=white" alt="Website" />
@@ -33,7 +25,7 @@
 
 ---
 
-## 🚀 Project Overview
+##  Overview
 
 **Proxmox VE Helper-Scripts** is a collection of tools to simplify the setup and management of Proxmox Virtual Environment (VE). Originally created by [tteck](https://github.com/tteck), these scripts are now continued by the community. Our goal is to preserve and expand upon tteck's work, providing an ongoing resource for Proxmox users worldwide.
 
@@ -87,19 +79,10 @@ Join our community for support:
 
 ## 🤝 Report a Bug or Feature Request
 
-If you encounter any issues or have suggestions for improvement, file a new issue on our [GitHub issues page](https://github.com/community-scripts/ProxmoxVE/issues). You can also submit pull requests with solutions or enhancements!
+If you encounter any issues or have suggestions for improvement, file a new issue on our [GitHub issues page](https://github.com/community-scripts/ProxmoxVE/issues). You can also submit pull requests with solutions or enhancements
 
 ---
 
-## ⭐ Star History
-
-<a href="https://star-history.com/#community-scripts/ProxmoxVE&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=community-scripts/ProxmoxVE&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=community-scripts/ProxmoxVE&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=community-scripts/ProxmoxVE&type=Date" />
- </picture>
-</a>
 
 ## 📜 License
 
