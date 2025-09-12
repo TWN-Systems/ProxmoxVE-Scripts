@@ -1,6 +1,6 @@
 
 <div style="border: 2px solid #d1d5db; padding: 20px; border-radius: 8px; background-color: #f9fafb;">
-  <h2 align="center">A fork roxmox VE Helper-Scripts</h2>
+  <h2 align="center">TWN's Fork of PVE Helper-Scripts</h2>
   <p align="center">
     <a href="https://helper-scripts.com">
       <img src="https://img.shields.io/badge/Website-4c9b3f?style=for-the-badge&logo=github&logoColor=white" alt="Website" />
@@ -49,7 +49,7 @@ Ensure your system meets the following prerequisites:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 To install the Proxmox Helper Scripts, follow these steps:
 
@@ -57,29 +57,7 @@ To install the Proxmox Helper Scripts, follow these steps:
 2. Search for the desired script, e.g., **"Home Assistant OS VM"**.
 3. Copy the provided **Bash command** from the **"How To Install"** section.
 4. Open the Proxmox shell on your **main node** and paste the command.
-5. Press enter to start the installation! 🚀
-
----
-
-## ❤️ Community and Contributions
-
-We appreciate any contributions to the project—whether it's bug reports, feature requests, documentation improvements, or spreading the word. Your involvement helps keep the project alive and sustainable.
-
-## 💖 Donate to Support the Project
-- **Ko-Fi for Community Edition**: [Donate to support this project](https://ko-fi.com/community_scripts) – Donations go towards maintaining the project, testing infrastructure, and charity (cancer research, hospice care). 30% of the funds will be donated to charity.
-
----
-
-## 💬 Get Help
-
-Join our community for support:
-
-- **Discord**: Join our [Proxmox Helper Scripts Discord server](https://discord.gg/3AnUqsXnmK) for real-time support.
-- **GitHub Discussions**: [Ask questions or report issues](https://github.com/community-scripts/ProxmoxVE/discussions).
-
-## 🤝 Report a Bug or Feature Request
-
-If you encounter any issues or have suggestions for improvement, file a new issue on our [GitHub issues page](https://github.com/community-scripts/ProxmoxVE/issues). You can also submit pull requests with solutions or enhancements
+5. Press enter to start the installation
 
 ---
 
@@ -93,5 +71,3 @@ This project is licensed under the [MIT License](LICENSE).
 <p align="center">
   <i style="font-size: smaller;"><b>Proxmox</b>® is a registered trademark of <a href="https://www.proxmox.com/en/about/company">Proxmox Server Solutions GmbH</a>.</i>
 </p>
-
-
