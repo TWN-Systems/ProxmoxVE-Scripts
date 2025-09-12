@@ -39,17 +39,14 @@
 - **Community-driven**: Actively maintained and improved by the Proxmox community.
 
 ---
-## ✅ Requirements
 
-Ensure your system meets the following prerequisites:
+### Ensure your system meets the following prerequisites:
 
 - **Proxmox VE version**: 8.x or higher
-- **Linux**: Compatible with most distributions
-- **Dependencies**: bash and curl should be installed.
 
 ---
 
-##  Installation
+###  Installation
 
 To install the Proxmox Helper Scripts, follow these steps:
 
