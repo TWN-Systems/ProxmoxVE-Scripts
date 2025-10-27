@@ -11,7 +11,7 @@ var_cpu="${var_cpu:-4}"
 var_ram="${var_ram:-6144}"
 var_disk="${var_disk:-6}"
 var_os="${var_os:-debian}"
-var_version="${var_version:-12}"
+var_version="${var_version:-13}"
 var_unprivileged="${var_unprivileged:-1}"
 
 header_info "$APP"
@@ -33,10 +33,11 @@ function update_script() {
     msg_ok "Stopped Services"
 
     cp /opt/palmr/apps/server/.env /opt/palmr.env
+    rm -rf /opt/palmr
     fetch_and_deploy_gh_release "Palmr" "kyantech/Palmr" "tarball" "latest" "/opt/palmr"
 
     PNPM="$(jq -r '.packageManager' /opt/palmr/package.json)"
-    NODE_VERSION="20" NODE_MODULE="$PNPM" setup_nodejs
+    NODE_VERSION="24" NODE_MODULE="$PNPM" setup_nodejs
 
     msg_info "Updating ${APP}"
     cd /opt/palmr/apps/server

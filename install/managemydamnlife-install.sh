@@ -14,10 +14,10 @@ network_check
 update_os
 
 msg_info "Installing dependencies"
-$STD apt-get install --no-install-recommends -y build-essential
+$STD apt install --no-install-recommends -y build-essential
 msg_ok "Installed dependencies"
 
-NODE_VERSION="20" setup_nodejs
+NODE_VERSION="22" setup_nodejs
 MYSQL_VERSION="8.0" setup_mysql
 
 msg_info "Setting up Database"
@@ -48,7 +48,7 @@ sed -i -e 's|db|localhost|' \
   -e "s|=PASSWORD|=$(openssl rand -base64 40 | tr -dc 'a-zA-Z0-9' | head -c40)|" \
   /opt/mmdl/.env
 cd /opt/mmdl
-export NEXT_TELEMETRY_DISABLE=1
+export NEXT_TELEMETRY_DISABLED=1
 export CI="true"
 $STD npm install
 $STD npm run migrate
@@ -77,6 +77,7 @@ motd_ssh
 customize
 
 msg_info "Cleaning up"
-$STD apt-get -y autoremove
-$STD apt-get -y autoclean
+$STD apt -y autoremove
+$STD apt -y autoclean
+$STD apt -y clean
 msg_ok "Cleaned"
